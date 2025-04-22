@@ -21,7 +21,7 @@ public class FrogSimulation
 			d-= this.hopDistance();
 			h--;
 		}
-		if(d==0){
+		if(d<=0){
 			return true;}
 		return false;
 
