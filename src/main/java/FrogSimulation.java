@@ -17,7 +17,7 @@ public class FrogSimulation
 	{ 
 		int d = goalDistance;
 		int h = maxHops;
-		while(d<0&&h<0&&d<=goalDistance){
+		while(d>0&&h>0&&d<=goalDistance){
 			d-= this.hopDistance();
 			h--;
 		}
